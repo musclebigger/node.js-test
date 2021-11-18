@@ -4,7 +4,7 @@
   "description": "For node.js &amp; Express.js postman study",
   "main": "index.js",
   "scripts": {
-    "dev": "node index"
+    "dev": "node server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/musclebigger/node.js-test#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "got": "^11.8.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

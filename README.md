@@ -9,3 +9,7 @@ npm管理semantic version命名要求：major.minor.patch (patch 修改小bug的
 
 npm nodemon包：可以监听server，当server更新时，关闭当前sever，放在devDependancies里（通过在命令行里npm i nodemon -D）,储存不属于部署部分的工具类
 在package.json中可以设置快捷键自动执行，在script中设置，在terminal中执行
+
+将js文件模块化，使用moudule.exports 将想要暴露的功能暴露给外部（exports.function（）,或者moudule.exports={name: function})
+
+使用nvm对node多版本进行管理
